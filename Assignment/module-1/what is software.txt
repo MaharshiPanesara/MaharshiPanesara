@@ -1,8 +1,8 @@
 1. what is software?
-->Software refers to a collection of computer programs, data, and instructions that tell a computer how     to perform specific tasks or functions.
+->The software is basically a set of instructions or commands that tell a computer what to do. In other words, the software is a computer   program that provides a set of instructions to execute a user’s commands and tell the computer what to do.
 
 2.what is software Engineering?
-->Software engineering is a systematic and disciplined approach to designing, developing, testing, and    maintaining software systems.
+->Software Engineering is the process of designing, developing, testing, and maintaining software. It is a systematic and disciplined       approach to software development that aims to create high-quality, reliable, and maintainable software.
 
 3. explain types of software?
 
