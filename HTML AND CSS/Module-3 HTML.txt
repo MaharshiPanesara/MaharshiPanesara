@@ -1,0 +1,134 @@
+1.Are the HTML tags and elements the same thing?
+->No
+
+2.What are tags and attributes in HTML?
+->In HTML, tags are markup symbols used to define the structure of a document. They consist of an opening tag, content, and a closing tag.
+
+3.What are void elements in HTML? With Example.
+->Void elements in HTML are elements that don't have a closing tag. They self-close within the opening tag. Examples include the "img," "br," and "input" elements.
+
+4.What are HTML Entities? With Example.
+->If we want to use some reserved special characters then we have to use some selected code.we called them entities
+->ex : &lt; &gt; &amp;
+
+5.What are different types of lists in HTML? With Example.
+->A list is a record of short pieces of related information or used to display the data or any information on web pages in the ordered or unordered form.
+->Ex:- ordered list <ol>, unorderd list <ul>, Definition List <dl>
+
+1. Ordered List (<ol>):
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+2. Unordered List (<ul>):
+
+<ul>
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Banana</li>
+</ul>
+
+6.What is the ‘class’ attribute in HTML? With Example
+->The class attribute specifies one or more classnames for an element.The class attribute is mostly used to point to a class in a style sheet.
+
+7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? With Example.
+->In HTML, the id attribute identifies a unique element, while the class attribute identifies a group of elements.A id must be unique on a page, while a class can be used multiple times on a page.
+
+8.What are the various formatting tags in HTML?
+->Bold text,italic text,underline text,strong text,supercript text,smaller text,subscript text,larger text
+
+9.How is Cell Padding different from Cell Spacing? With Example. 
+-> *Cellpadding
+   ->space between the border of a table and its content
+   ->default cellpadding value is 1
+
+-> *Cellspacing
+   ->space between adjacent cells
+   ->the default cellspacing value is 2
+
+10.How can we club two or more rows or columns into a single row or column in an HTML table? With Example
+->Merging table cells in HTML using the rowspan and colspan attributes.
+
+->EX:- Rowspan
+   <table align="center">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ankit</td>
+             <td rowspan="2">40</td>
+        </tr>
+        <tr>
+            <td>hit</td>
+        </tr>
+    </table>
+
+->Ex:- Colspan
+   <table>
+            <tr>
+                <th>Name</tMh>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>soul</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>ridham</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sum: 36</td>
+            </tr>
+        </table>
+
+11.What is the difference between a block-level element and an inline element?
+->A block-level element always starts on a new line, and the browsers automatically add some space before and after the element.Ex.<p>,<div>
+->An inline element does not start on a new line.An inline element only takes up as much width as necessary.Ex.<span>
+
+12.How to create a Hyperlink in HTML? With Example.
+->HTML links are hyperlinks.You can click on a link and jump to another document.
+->Ex.<a href="url">link text</a>
+
+13.What is the use of an iframe tag? With Example.
+->Iframe is to load content from another site within the page. 
+->Ex.<iframe src="url" title="link text"></iframe>
+
+14.What is the use of a span tag? Explain with example?
+->The span tag is an inline container element in HTML. It's used to group inline elements together so you can style or manipulate.
+->EX.<p>My mother has <span style="color:blue;font-weight:bold">yellow</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark yellow</span> eyes.</p>
+
+15.How to insert a picture into a background image of a web page? With Example.
+->You can use the CSS background-image property.
+->Ex. background-image: url(my_background.png);
+
+16.How are active links different from normal links?
+->Active links are hyperlinks that are currently being interacted with by the user. Normal links are hyperlinks that have not yet been interacted with.
+->Active links are typically links that are currently functional and lead to live web pages, while normal links can refer to any link, whether functional or broken.
+
+17. What are the different tags to separate sections of text?
+->Three tags are used to separate the texts.
+
+-><br> tag - Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+-><p> tag - The <p> tag contains the text in the form of a new paragraph.
+-><blockquote> tag - It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>.......</blockquote> tag.
+
+18. What is SVG?
+->SVG stands for Scalable Vector Graphics.
+->SVG is used to define vector-based graphics for the Web.
+->SVG defines graphics in XML format.
+
+19. What is difference between HTML and XHTML?
+->HTML5 is simpler to use, while XHTML demands strict adherence to XML standards. XHTML stands for Extensible Hypertext Markup Language. It can be considered as a part of the
+XML markup language this is because XHTML has features of both XML and HTML. XHTML is extended from XML and HTML. XHTML can be considered as a better version of HTML.
+
+20. What are logical and physical tags in HTML?
+->Logical Tags:
+  Logical Tags are used in HTML to display the text according to the logical styles. Following are the Logical tags commonly used in HTML.
+
+->Physical Tags:
+  Physical Tags are used in HTML to provide actual physical formatting to the text. Following are the Physical tags commonly used in HTML.
